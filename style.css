@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    background-color: gainsboro;
+    padding: 10px 20px;
+    flex-wrap: wrap; 
+
+.header2 {
+    margin-right: 30px;
+    font-size: 24px;
+}
+
+.navbar {
+    display: flex;
+    gap: 20px;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.nav {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.Contact-btn {
+    padding: 6px -2px;
+    cursor: pointer;
+}
